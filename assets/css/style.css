@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+
+}
+
+html{
+    overflow-x: hidden;
+}
+
+header{
+    background-image: url(../images/header-hero.jpg);
+    filter: grayscale(0.15);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFF;
+}
+
+.logo>img{
+    width: 75px;
+}
+
+.sec-2{
+    background-color: #F6F8F5;
+    padding: 50px;
+}
+
+.artic-00>p{
+    text-align: center;
+    width: 300px;
+}
+
+.btn-getStart{
+    padding: 10px 40px 10px 40px;
+    border-radius: 4px;
+}
+
+.title-0{
+    font-size: 117px;
+}
+.title--0{
+    height: 0px;
+}
+
+.art-ref{
+    width: 50%;
+}
+.art-ref>h4{
+    font-size: 35px;
+    color: #536941CC;
+    font-family: serif;
+    line-height: 43px;
+    letter-spacing: -2px;
+}
+
+.art-ref>figure>img{
+    height: 50px;
+}
+
+.art-ref>figure>figcaption{
+    color: #52684080;
+}
+
+.quote{
+    height: 37px;
+    opacity: 0.3;
+}
+
+.content-aside{
+    padding: 10px 250px 10px 25px;
+}
+
+.title-2{
+    font-size: 40px;
+    color: #536941CC;
+    font-family: serif;
+}
+
+.info-p2{
+line-height: 26px;
+color: #7A7A7A;
+}
+
+.btn-find{
+    padding: 16px 36px 16px 36px;
+}
+
+.btn-find:hover{
+    color: #9FCE00;
+}
+
+.sec-4{
+    background-image: url("../images/footer-hero-big.jpg");
+    min-height: 480px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.sec-4>article>h1{
+    font-size: 58px;
+    color: #536942;
+    font-family: serif;
+}
+.sec-4>article>p{
+    color: #526840BF;
+    line-height: 32px;
+    font-size: 17px;
+}
+
+.art-ref-2{
+    width: 500px;
+}
+
+@media (max-width: 1116px) {
+    .nav-drop{
+        display: none !important;
+    }
+
+    .nav-footer, .ul-footer{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .content-aside{
+        padding: 50px;
+    }
+   
+}
+
+@media (max-width: 770px) {
+    .art-ref{
+        width: auto;
+    }
+
+    .content-aside{
+        padding: 50px;
+    }
+
+    .img-leaf{
+        padding: 0px 50px 50px 50px;
+        text-align: center;
+        opacity: 0.3;
+    }
+
+    header{
+        height: 550px;
+    }
+}
