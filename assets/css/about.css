@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+
+}
+
+header{
+    background-image: url(../images/header-hero-1.jpg);
+    height: 65vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(0.2);
+    filter: contrast(90%);
+}
+.logo>img{
+    width: 55px;
+}
+
+.text-main{
+    color: #fff;
+    margin-top: 50px;
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.sub-main{
+    color: #536942;
+    font-weight: 300;
+}
+
+
+.artc-1{
+    min-height: 554px;
+    background-color: #F6F8F5;
+    padding: 50px 0;
+}
+
+
+.contact-zap{
+    position: fixed;
+    z-index: 9999;
+    bottom: 20px;
+    right: 20px;
+}
+
+@media (max-width: 1116px) {
+    .nav-drop{
+        display: none !important;
+    }
+
+    header{
+        max-height: 330px !important;
+    }
+
+    .text-main{
+        font-size: 54px ;
+    }
+
+    .sub-main{
+        font-size: 24px !important;
+    }
+
+    .nav-footer, .ul-footer{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+   
+}
